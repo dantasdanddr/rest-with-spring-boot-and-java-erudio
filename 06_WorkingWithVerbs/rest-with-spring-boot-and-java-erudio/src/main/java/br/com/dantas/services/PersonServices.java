@@ -1,4 +1,4 @@
-package br.com.dantas.service;
+package br.com.dantas.services;
 
 import br.com.dantas.model.Person;
 import org.springframework.stereotype.Service;
