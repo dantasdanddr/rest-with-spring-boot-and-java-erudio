@@ -20,7 +20,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Adding migrations support with Flyway
 - [x] Custom JSON serialization
 - [x] Implementing Content Negotiation with JSON, XML and YAML
-- [ ] Testing Generation of HATEOAS Links with Mockito
+- [x] Testing Generation of HATEOAS Links with Mockito
 - [ ] Adding Swagger Open API Support
 - [ ] Docker Overview Session - Before Dockerization
 - [ ] Introduction to Integration Testing with Testcontainers and Rest-Assured
