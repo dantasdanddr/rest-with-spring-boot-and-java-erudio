@@ -6,13 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
 
 import br.com.dantas.data.dto.PersonDTO;
-import br.com.dantas.unittests.mocks.MockPerson;
+import br.com.dantas.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import br.com.dantas.model.Person;
 
-public class ObjectMapperTests {
+public class PersonMapperTests {
     MockPerson inputObject;
 
     @BeforeEach

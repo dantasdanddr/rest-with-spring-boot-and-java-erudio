@@ -1,10 +1,12 @@
-package br.com.dantas.services;
+package br.com.dantas.unittests.services;
 
 import br.com.dantas.data.dto.PersonDTO;
 import br.com.dantas.exception.RequiredObjectIsNullException;
 import br.com.dantas.model.Person;
 import br.com.dantas.repositories.PersonRepository;
-import br.com.dantas.unittests.mocks.MockPerson;
+import br.com.dantas.mocks.MockPerson;
+import br.com.dantas.services.PersonService;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -33,10 +35,17 @@ class PersonServiceTest {
     @InjectMocks
     private PersonService service;
 
+    private AutoCloseable openMocks;
+
     @BeforeEach
     void setUp() {
         input = new MockPerson();
-        MockitoAnnotations.openMocks(this);
+        openMocks = MockitoAnnotations.openMocks(this);
+    }
+
+    @AfterEach
+    void tearDown() throws Exception {
+        openMocks.close();
     }
 
     @Test

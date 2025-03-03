@@ -12,6 +12,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+- [x] First Steps in Java with Spring Boot 3.4.1
 - [x] Parameters and Exception Handler
 - [x] Working with four HTTP Main Verbs - GET, POST, PUT and Delete
 - [x] Connecting to MySQL with Spring Data, JPA and Hibernate
@@ -21,7 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Custom JSON serialization
 - [x] Implementing Content Negotiation with JSON, XML and YAML
 - [x] Testing Generation of HATEOAS Links with Mockito
-- [ ] Adding Swagger Open API Support
+- [x] Adding Swagger Open API Support
 - [ ] Docker Overview Session - Before Dockerization
 - [ ] Introduction to Integration Testing with Testcontainers and Rest-Assured
 - [ ] Configuring Cross-Origin Resource Sharing (CORS)
