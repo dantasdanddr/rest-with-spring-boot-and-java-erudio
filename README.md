@@ -23,7 +23,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Implementing Content Negotiation with JSON, XML and YAML
 - [x] Testing Generation of HATEOAS Links with Mockito
 - [x] Adding Swagger Open API Support
-- [ ] Docker Overview Session - Before Dockerization
+- [x] Docker Overview Session - Before Dockerization
 - [ ] Introduction to Integration Testing with Testcontainers and Rest-Assured
 - [ ] Configuring Cross-Origin Resource Sharing (CORS)
 - [ ] Working with PATCH Method
