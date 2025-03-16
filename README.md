@@ -26,7 +26,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Docker Overview Session - Before Dockerization
 - [x] Introduction to Integration Testing with Testcontainers and Rest-Assured
 - [x] Configuring Cross-Origin Resource Sharing (CORS)
-- [ ] Working with PATCH Method
+- [x] Working with PATCH Method
 - [ ] Implementing pagination search
 - [ ] Implementing Upload and Download Files
 - [ ] Working with CSV and XLSX
