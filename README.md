@@ -28,7 +28,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Configuring Cross-Origin Resource Sharing (CORS)
 - [x] Working with PATCH Method
 - [x] Implementing pagination search
-- [ ] Implementing Upload and Download Files
+- [x] Implementing Upload and Download Files
 - [ ] Working with CSV and XLSX
 - [ ] Generating Professional Reports with JasperReports and Spring Boot
 - [ ] Working with e-Mails in Spring Boot and Java Apps
